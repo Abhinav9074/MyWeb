@@ -1379,9 +1379,11 @@ For devices with smaller width like mobile phone
         display: none;
     }
     .header-image{
-        float: right;
+        display: flex;
+        justify-content: center;
         height: auto;
-        width: 0%;   
+        width: 0%; 
+          
     }
     .social-media-links{
         width: 100%;
@@ -1834,7 +1836,10 @@ for tabs and large phones
         font-size: 40px;
     }
     .header-image{
-        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
         height: auto;
         width: 0%;   
     }
